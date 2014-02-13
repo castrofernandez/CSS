@@ -1,0 +1,3 @@
+En el fichero HTML que acompaña a este ejercicio hay una serie de reglas CSS a las que les falta el selector.
+Deben completarse los selectores en función a los comentarios que acompañan a las reglas.
+Además, deben incluirse elementos HTML que cumplan las condiciones de las reglas CSS.

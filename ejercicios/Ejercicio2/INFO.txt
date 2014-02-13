@@ -1,0 +1,3 @@
+En este ejercicio tenemos un fichero HTML con una estructura dada y una imagen. Tenemos que dar formato al documento a través de CSS para que se asemeje a la vista de la imagen.
+
+NO está permitido modificar las etiquetas HTML, por tanto no se podrán añadir atributos ‘class’, ‘id’, etc.
