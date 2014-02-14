@@ -5,14 +5,16 @@ else
 	
 function iniciar() {
 	console.log("iniciar");
+	
+	document.getElementById("boton1").onclick = botonPulsado;
+	document.getElementById("boton2").onclick = botonPulsado;
 }
 
-function boton1Pulsado() {
+function botonPulsado(event) {
 	var div = document.getElementById("miDiv");
-	div.className = "clase1";
-}
 
-function boton2Pulsado() {
-	var div = document.getElementById("miDiv");
-	div.className = "clase2";
+	if (this.id == "boton1")
+		div.className = "clase1";
+	else
+		div.className = "clase2";
 }
