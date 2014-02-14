@@ -1,0 +1,12 @@
+div {
+	height: 20em;
+	border: 0.1em solid black;
+}
+
+.clase1 {
+	background-color: red;
+}
+
+.clase2 {
+	background-color: blue;
+}
