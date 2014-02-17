@@ -1,0 +1,1 @@
+Validación de formulario. Realícese un formulario HTML5 donde los controles válidos se muestran con fondo verde, y los inválidos con fondo rojo.
