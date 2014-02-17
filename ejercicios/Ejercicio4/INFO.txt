@@ -1,0 +1,1 @@
+Hágase un diseño que incluya un DIV y cuatro BUTTONS. Al pulsar cada botón deberá asociarse una clase diferente, 4 en total - una por cada botón, al DIV. Cada clase deberá basarse en una propiedad diferente relativas al fondo: background, background-color, background-image, etc.
