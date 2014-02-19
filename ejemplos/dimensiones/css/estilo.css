@@ -1,0 +1,130 @@
+html {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	font-family: 'Bad Script', cursive;
+	background-color: #dfdfdf;
+}
+
+.x1 {
+	position: absolute;
+	width: 100%;
+	height: 0.5em;
+	left: 0;
+	top: 1em;
+	background-color: #555;
+}
+
+.x2 {
+	position: absolute;
+	width: 100%;
+	height: 0.5em;
+	left: 0;
+	bottom: 1em;
+	background-color: #555;
+}
+
+.y1 {
+	position: absolute;
+	width: 0.5em;
+	height: 100%;
+	left: 1em;
+	top: 0;
+	background-color: #555;
+	z-index: -1;
+}
+
+.y2 {
+	position: absolute;
+	width: 0.5em;
+	height: 100%;
+	right: 1em;
+	top: 0;
+	background-color: #555;
+	z-index: -1;
+}
+
+span.ancho {
+	background-color: #dfdfdf;
+	position: absolute;
+	width: 5em;
+	left: 50%;
+	margin-left: -2.5em;
+	margin-top: -0.5em;
+	text-align: center; 
+	font-family: 'Crete Round', serif;
+	color: #555;
+}
+
+span.alto {
+	background-color: #dfdfdf;
+	position: absolute;
+	width: 5em;
+	top: 50%;
+	left: 0;
+	margin-top: -2em;
+	margin-left: -2.5em;
+	text-align: center; 
+	font-family: 'Crete Round', serif;
+	color: #555;
+	
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+	
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	
+	/* IE */
+	-ms-transform: rotate(-90deg);
+	
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+h1 {
+	margin: 0;
+	padding: 1.5em 0 0 0;
+	text-align: center;
+}
+
+div.contenido {
+	height: auto;
+	min-height: 100%;
+	position: relative;
+}
+
+div.muestras {
+	padding-bottom: 3em;
+}
+
+div.muestra {
+	text-align: center;
+	margin-top: 1em;
+}
+
+div.muestra div.caja {
+	width: 1em;
+	height: 1em;
+	background-color: #ed4461;
+	margin: 0.1em auto;
+	border-radius: 50%;
+}
+
+._2em {
+	font-size: 2em;
+}
+
+._3em {
+	font-size: 3em;
+}
+
+._4em {
+	font-size: 4em;
+}

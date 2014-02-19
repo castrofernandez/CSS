@@ -1,0 +1,1 @@
+Basándose en las imágenes adjuntas, realícese el diseño en HTML y CSS de forma adaptativa al ancho del dispositivo. Las imágenes muestran la vista de móvil y de escritorio.
