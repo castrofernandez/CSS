@@ -1,0 +1,28 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+caption {
+	padding: 0.5em 0;
+	background-color: #333;
+	color: #fff;
+	margin-bottom: 0.5em;
+}
+
+td, th {
+	margin: 0.5em 0;
+	padding: 0.5em 0;
+	text-align: center;
+	border-bottom: 0.1em solid #ccc;
+}
+
+@media all and (max-width: 37em) {
+	tr th {
+		border-bottom: 0.2em solid #aaa;
+	}
+	
+	th[data-title]:before {
+		content: none;
+	}
+}
